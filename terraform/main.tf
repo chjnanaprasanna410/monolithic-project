@@ -8,4 +8,7 @@ tags = {
 Name = "project-instance"
 Environment = "dev"
 }
+root_block_device {
+volume_size = 12
+}
 }

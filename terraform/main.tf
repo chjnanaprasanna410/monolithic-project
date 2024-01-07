@@ -1,8 +1,3 @@
-provider "aws" {
-region = "ap-south-1"
-
-}
-
 resource "aws_instance" "key" {
 ami = "ami-012b9156f755804f5"
 instance_type = "t2.micro"

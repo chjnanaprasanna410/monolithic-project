@@ -14,6 +14,6 @@ default = "project-keypair"
 }
 
 variable "iname" {
-type= strinf
+type= string
 default = "Swiggy"
 }
